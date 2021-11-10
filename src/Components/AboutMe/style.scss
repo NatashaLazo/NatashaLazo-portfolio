@@ -39,3 +39,12 @@
     margin-left: -2em;
   }
 }
+
+@media screen and (max-width: 411px) {
+  .descripcion .skilss {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -2em;
+  }
+}
