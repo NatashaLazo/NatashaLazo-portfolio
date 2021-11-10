@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+.descripcion {
+  font-family: Varela Round;
+  margin: 8px auto;
+  width: 80%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  p {
+    font-size: 1em;
+    text-align: center;
+    margin: 50px 0;
+  }
+  .skilss {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .skill {
+      background-color: #407294;
+      color: white;
+      text-decoration: none;
+      list-style: none;
+      margin: 0.3rem;
+      padding: 0.8rem;
+      margin-left: 1rem;
+      border-radius: 6%;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .descripcion .skilss {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -2em;
+  }
+}

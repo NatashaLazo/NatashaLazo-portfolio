@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+.contacto-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Varela Round;
+  background-color: #f8f8ff;
+  margin: 2rem auto;
+  width: 40%;
+  height: 10%;
+  border-radius: 5%;
+  padding-top: 30%;
+
+  .contacto-title {
+    background-color: #407294;
+    color: white;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    h2 {
+      font-size: 2em;
+      font-weight: normal;
+      text-align: center;
+      margin: 8px;
+    }
+  }
+
+  .gmail-container {
+    display: flex;
+    align-items: center;
+    .img-gmail {
+      padding: 1em;
+    }
+    .text-gmail {
+      color: black;
+    }
+  }
+  .linkedin-container {
+    display: flex;
+    align-items: center;
+    .img-linkedin {
+      padding: 1em;
+    }
+    .text-linkedin {
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+      &:hover {
+        color: rgb(40, 75, 66);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .contacto-container {
+    width: 100%;
+    margin: auto;
+  }
+}

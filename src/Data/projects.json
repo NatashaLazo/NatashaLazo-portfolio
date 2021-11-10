@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Courflix",
+    "desc": "Imitación a Netflix. Utilice ReactJS, CSS3, SASS. Rutas dinamicas, y libreria Slick.",
+    "img": "https://i.ibb.co/1061Z30/courflix.png",
+    "link": "https://courflix-react-murex.vercel.app/"
+  },
+  {
+    "name": "Tinder Clone",
+    "desc": "Imitación a Tinder. Utilice ReactJS, CSS3. rutas dinamicas, Hooks.",
+    "img": "https://i.ibb.co/xCt7Y9h/tinder.png",
+    "link": "https://tinderclone-odfzozvfm-natashalazo.vercel.app/"
+  },
+  {
+    "name": "Pokedex",
+    "desc": "Pokedex , creada con HTML , CSS y JAVASCRIPT.",
+    "img": "https://i.ibb.co/gt8Zq09/pikachu.png",
+    "link": "https://pokedex-eight-bay.vercel.app/"
+  },
+  {
+    "name": "Rick y Morty Scroll",
+    "desc": "Scroll infinito de la serie Rick & Morty , creado con HTML , CSS y JAVASCRIPT.",
+    "img": "https://i.ibb.co/0KDdnjs/rickymorty.png",
+    "link": "https://rickymortyscroll.vercel.app/"
+  }
+]
