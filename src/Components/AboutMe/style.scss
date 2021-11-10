@@ -48,3 +48,19 @@
     margin-left: -2em;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .descripcion .skilss {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -2em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .descripcion {
+    width: 93%;
+    padding: 0rem;
+  }
+}

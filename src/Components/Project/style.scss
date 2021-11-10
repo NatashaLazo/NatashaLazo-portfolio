@@ -62,3 +62,10 @@
     height: 366px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .project-container {
+    width: 87%;
+    height: 366px;
+  }
+}
